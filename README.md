@@ -39,7 +39,7 @@
 
 <div align="center">
   <a href="https://tryhackme.com/p/raptorjet06">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/raptorjet06.png" alt="TryHackMe Badge" />
+    <img src="https://tryhackme-badges.s3.amazonaws.com/4e0e83414039d3863497892315ca238f0fe1304f4d36f7af044dbbeb4cf4158b79b3b99f7a2a7eb12bd74f5d4b67e70f.png" alt="TryHackMe Badge" />
   </a>
 </div>
 

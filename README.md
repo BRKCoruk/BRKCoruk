@@ -7,7 +7,7 @@
 </div>
 
 ### 👨‍💻 Hakkımda
-<img align="right" width="32%" src="./mascot.gif" alt="Coding GIF" />
+<img align="right" width="28%" src="./mascot.jpg" alt="Johnny Silverhand Mascot" style="border-radius: 10px;" />
 
 - 🎓 **Eğitim:** Ankara Yıldırım Beyazıt Üniversitesi — Yazılım Mühendisliği (1. Sınıf)
 - 🔐 **İlgi Alanları:** Siber Güvenlik (CTF, Tersine Mühendislik, Ağ Güvenliği), Bilgisayar Ağları ve Yerel LLM İş Akışları

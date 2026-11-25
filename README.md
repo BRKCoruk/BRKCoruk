@@ -1,10 +1,26 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f2937,100:6e40c9&height=180&section=header&text=Merhaba,%20Ben%20Burak&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20-%20Cybersecurity%20and%20Networking&descAlignY=58&descSize=16" width="100%" />
+```text
+______                                      +-------------------------------+
+L,.   ',                                    | CALLSIGN : raptorjet06        |
+ \      ',_                                 | AIRCRAFT : F-16C Block 50     |
+  \   C*   ',                               | SQUADRON : 141. Filo (Kurt)   |
+   \        ',                              | OS       : VxWorks 653 RTOS   |
+    \    TR   ',                            +-------------------------------+
+     \___90-0002 ',_                         _..----.._
+     [______       "'==.I\_____________..--"<__\\_n@___4\,_
+   ,..-=T         __   ____________          \/  "'" o<==  ""-+.._
+   I____|_____    }_>=========I>=**^^~~==-------------==-   " |   ""-.,___
+   [_____,.--'"             _______         ""--=<""-----=====+==--''""
+   ""'-=+..,,__,-----,_____|       |         -=* |
+               |__   /     |---,--'"---+------+-'"
+                  """     d"b="        '-----+t
+                          q_p                '@
+```
+
+<div align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1200&color=10B981&vCenter=true&width=680&height=35&lines=burak%40root(%2Fhome)%23+.%2Fwhoami.sh+--verbose;burak%40root(%2Fhome)%23+cat+%2Fetc%2Ffocus+%7C+grep+-E+%22CyberSec%7CNetwork%22;burak%40root(%2Fhome)%23+systemctl+status+c-lang+python+reverse-eng" alt="Terminal Prompt" />
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=whoami+%3E+Software+Engineering+Student;focus+%3E+Cybersecurity+%26+Network+Analysis;currently_learning+%3E+C%2C+Python+%26+Reverse+Engineering" alt="Typing SVG" />
-</div>
+---
 
 ### 👨‍💻 Hakkımda
 <img align="right" width="28%" src="./mascot.jpg" alt="Johnny Silverhand Mascot" style="border-radius: 10px;" />
@@ -33,8 +49,8 @@
 <br/>
 
 <div align="center">
-  <img height="145" src="https://github-readme-stats.vercel.app/api?username=BRKCoruk&show_icons=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&border_color=30363d" />
-  <img height="145" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BRKCoruk&layout=compact&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&border_color=30363d" />
+  <img height="145" src="https://github-readme-stats.vercel.app/api?username=BRKCoruk&show_icons=true&bg_color=0d1117&title_color=10b981&icon_color=10b981&text_color=c9d1d9&border_color=30363d" />
+  <img height="145" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BRKCoruk&layout=compact&bg_color=0d1117&title_color=10b981&text_color=c9d1d9&border_color=30363d" />
 </div>
 
 ---
@@ -46,27 +62,6 @@
     <img src="https://img.shields.io/badge/TryHackMe-raptorjet06-212C42?style=for-the-badge&logo=tryhackme&logoColor=88CC14" alt="TryHackMe Profile" />
   </a>
 </div>
-
----
-
-```text
-______                                      +-------------------------------+
-L,.   ',                                    | CALLSIGN : raptorjet06        |
- \      ',_                                 | AIRCRAFT : F-16C Block 50     |
-  \   C*   ',                               | SQUADRON : 141. Filo (Kurt)   |
-   \        ',                              | OS       : VxWorks 653 RTOS   |
-    \    TR   ',                            +-------------------------------+
-     \___90-0002 ',_                         _..----.._
-     [______       "'==.I\_____________..--"<__\\_n@___4\,_
-   ,..-=T         __   ____________          \/  "'" o<==  ""-+.._
-   I____|_____    }_>=========I>=**^^~~==-------------==-   " |   ""-.,___
-   [_____,.--'"             _______         ""--=<""-----=====+==--''""
-   ""'-=+..,,__,-----,_____|       |         -=* |
-               |__   /     |---,--'"---+------+-'"
-                  """     d"b="        '-----+t
-                          q_p                '@
-
-```
 
 ---
 

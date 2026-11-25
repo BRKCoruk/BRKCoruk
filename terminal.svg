@@ -10,25 +10,25 @@
       .prompt-path { fill: #38bdf8; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; font-weight: bold; }
       .cmd-text { fill: #f8fafc; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; font-variant-ligatures: none; }
 
-      .cmd1 { opacity: 0; animation: show1 12s infinite; }
-      .cmd2 { opacity: 0; animation: show2 12s infinite; }
-      .cmd3 { opacity: 0; animation: show3 12s infinite; }
+      .cmd1 { opacity: 0; visibility: hidden; animation: show1 12s infinite; }
+      .cmd2 { opacity: 0; visibility: hidden; animation: show2 12s infinite; }
+      .cmd3 { opacity: 0; visibility: hidden; animation: show3 12s infinite; }
       .cover { animation: slideCover 12s infinite; }
       .cursor { fill: #10b981; animation: blink 0.8s step-end infinite; }
 
       @keyframes show1 {
-        0%, 32.9% { opacity: 1; }
-        33%, 100% { opacity: 0; }
+        0%, 32.9% { opacity: 1; visibility: visible; }
+        33%, 100% { opacity: 0; visibility: hidden; }
       }
       @keyframes show2 {
-        0%, 32.9% { opacity: 0; }
-        33%, 65.9% { opacity: 1; }
-        66%, 100% { opacity: 0; }
+        0%, 32.9% { opacity: 0; visibility: hidden; }
+        33%, 65.9% { opacity: 1; visibility: visible; }
+        66%, 100% { opacity: 0; visibility: hidden; }
       }
       @keyframes show3 {
-        0%, 65.9% { opacity: 0; }
-        66%, 99.9% { opacity: 1; }
-        100% { opacity: 0; }
+        0%, 65.9% { opacity: 0; visibility: hidden; }
+        66%, 99.9% { opacity: 1; visibility: visible; }
+        100% { opacity: 0; visibility: hidden; }
       }
 
       @keyframes slideCover {

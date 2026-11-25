@@ -4,32 +4,43 @@
       .term-bg { fill: #0a0e14; stroke: #30363d; stroke-width: 1.5; }
       .title-bar { fill: #161b22; }
       .title-text { fill: #8b949e; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 13px; }
-      .ascii { fill: #cbd5e1; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 13.5px; white-space: pre; }
+      .ascii { fill: #cbd5e1; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 13.5px; white-space: pre; font-variant-ligatures: none; }
       .hud-accent { fill: #10b981; }
       .prompt-user { fill: #10b981; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; font-weight: bold; }
       .prompt-path { fill: #38bdf8; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; font-weight: bold; }
-      .cmd-text { fill: #f8fafc; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; }
+      .cmd-text { fill: #f8fafc; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; font-variant-ligatures: none; }
 
-      .line1 { animation: type1 12s steps(32, end) infinite; }
-      .line2 { animation: type2 12s steps(44, end) infinite; }
-      .line3 { animation: type3 12s steps(46, end) infinite; }
-      .cursor { fill: #10b981; animation: blink 0.9s step-end infinite; }
+      .cmd1 { opacity: 0; animation: show1 12s infinite; }
+      .cmd2 { opacity: 0; animation: show2 12s infinite; }
+      .cmd3 { opacity: 0; animation: show3 12s infinite; }
+      .cover { animation: slideCover 12s infinite; }
+      .cursor { fill: #10b981; animation: blink 0.8s step-end infinite; }
 
-      @keyframes type1 {
-        0%, 2% { width: 0px; }
-        14%, 28% { width: 310px; }
-        32%, 100% { width: 0px; }
+      @keyframes show1 {
+        0%, 32.9% { opacity: 1; }
+        33%, 100% { opacity: 0; }
       }
-      @keyframes type2 {
-        0%, 34% { width: 0px; }
-        48%, 62% { width: 420px; }
-        66%, 100% { width: 0px; }
+      @keyframes show2 {
+        0%, 32.9% { opacity: 0; }
+        33%, 65.9% { opacity: 1; }
+        66%, 100% { opacity: 0; }
       }
-      @keyframes type3 {
-        0%, 68% { width: 0px; }
-        82%, 95% { width: 440px; }
-        99%, 100% { width: 0px; }
+      @keyframes show3 {
+        0%, 65.9% { opacity: 0; }
+        66%, 99.9% { opacity: 1; }
+        100% { opacity: 0; }
       }
+
+      @keyframes slideCover {
+        0%, 2% { transform: translateX(192px); }
+        15%, 30% { transform: translateX(415px); }
+        33%, 35% { transform: translateX(192px); }
+        48%, 63% { transform: translateX(555px); }
+        66%, 68% { transform: translateX(192px); }
+        81%, 96% { transform: translateX(545px); }
+        100% { transform: translateX(192px); }
+      }
+
       @keyframes blink {
         0%, 49% { opacity: 1; }
         50%, 100% { opacity: 0; }
@@ -73,15 +84,13 @@
   
   <text x="24" y="366" class="prompt-user">burak@root<tspan class="prompt-path">(/home)</tspan>#</text>
 
-  <svg x="192" y="348" height="24" class="line1">
-    <text x="0" y="18" class="cmd-text">./whoami.sh --verbose <tspan class="cursor">█</tspan></text>
-  </svg>
+  <text x="192" y="366" class="cmd-text cmd1">./whoami.sh --verbose</text>
+  <text x="192" y="366" class="cmd-text cmd2">cat /etc/focus | grep -E "CyberSec|Net"</text>
+  <text x="192" y="366" class="cmd-text cmd3">systemctl status c-lang python rev-eng</text>
 
-  <svg x="192" y="348" height="24" class="line2">
-    <text x="0" y="18" class="cmd-text">cat /etc/focus | grep -E "CyberSec|Net" <tspan class="cursor">█</tspan></text>
-  </svg>
-
-  <svg x="192" y="348" height="24" class="line3">
-    <text x="0" y="18" class="cmd-text">systemctl status c-lang python rev-eng <tspan class="cursor">█</tspan></text>
-  </svg>
+  
+  <g class="cover">
+    <rect x="0" y="346" width="640" height="28" fill="#0a0e14" />
+    <rect x="2" y="351" width="9" height="18" class="cursor" />
+  </g>
 </svg>

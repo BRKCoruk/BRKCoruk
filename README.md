@@ -14,6 +14,8 @@
 - 💻 **Odak:** C ve Python ile temel algoritma ve sistem programlama pratikleri geliştiriyor, sanallaştırılmış ağ laboratuvarlarında paket analizi yapıyorum.
 - 🐧 **Ortam:** Dual-boot Ubuntu Linux & Windows
 
+<br clear="right"/>
+
 ---
 
 ### 🛠️ Teknolojiler ve Araçlar
@@ -28,9 +30,11 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=BRKCoruk&show_icons=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&border_color=30363d" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BRKCoruk&layout=compact&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&border_color=30363d" />
+  <img height="145" src="https://github-readme-stats.vercel.app/api?username=BRKCoruk&show_icons=true&bg_color=0d1117&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&border_color=30363d" />
+  <img height="145" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BRKCoruk&layout=compact&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&border_color=30363d" />
 </div>
 
 ---
@@ -62,6 +66,8 @@ L,.   ',
                   """     d"b="        '-----+t
                           q_p                '@
 ```
+
+---
 
 ### 🐍 Contribution Snake
 

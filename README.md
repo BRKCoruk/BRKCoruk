@@ -35,6 +35,16 @@
 
 ---
 
+### 🛡️ TryHackMe & İstatistikler
+
+<div align="center">
+  <a href="https://tryhackme.com/p/raptorjet06">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/raptorjet06.png" alt="TryHackMe Badge" />
+  </a>
+</div>
+
+---
+
 ### 🐍 Contribution Snake
 
 <div align="center">

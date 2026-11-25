@@ -1,23 +1,5 @@
-```text
-______                                      +-------------------------------+
-L,.   ',                                    | CALLSIGN : raptorjet06        |
- \      ',_                                 | AIRCRAFT : F-16C Block 50     |
-  \   C*   ',                               | SQUADRON : 141. Filo (Kurt)   |
-   \        ',                              | OS       : VxWorks 653 RTOS   |
-    \    TR   ',                            +-------------------------------+
-     \___90-0002 ',_                         _..----.._
-     [______       "'==.I\_____________..--"<__\\_n@___4\,_
-   ,..-=T         __   ____________          \/  "'" o<==  ""-+.._
-   I____|_____    }_>=========I>=**^^~~==-------------==-   " |   ""-.,___
-   [_____,.--'"             _______         ""--=<""-----=====+==--''""
-   ""'-=+..,,__,-----,_____|       |         -=* |
-               |__   /     |---,--'"---+------+-'"
-                  """     d"b="        '-----+t
-                          q_p                '@
-```
-
-<div align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1200&color=10B981&vCenter=true&width=680&height=35&lines=burak%40root(%2Fhome)%23+.%2Fwhoami.sh+--verbose;burak%40root(%2Fhome)%23+cat+%2Fetc%2Ffocus+%7C+grep+-E+%22CyberSec%7CNetwork%22;burak%40root(%2Fhome)%23+systemctl+status+c-lang+python+reverse-eng" alt="Terminal Prompt" />
+<div align="center">
+  <img src="./terminal.svg" alt="Linux Terminal Banner" width="100%" />
 </div>
 
 ---

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 390" width="840" height="390">
+  <defs>
+    <style>
+      .term-bg { fill: #0a0e14; stroke: #30363d; stroke-width: 1.5; }
+      .title-bar { fill: #161b22; }
+      .title-text { fill: #8b949e; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 13px; }
+      .ascii { fill: #cbd5e1; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 13.5px; white-space: pre; }
+      .hud-accent { fill: #10b981; }
+      .prompt-user { fill: #10b981; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; font-weight: bold; }
+      .prompt-path { fill: #38bdf8; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; font-weight: bold; }
+      .cmd-text { fill: #f8fafc; font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14.5px; }
+
+      .line1 { animation: type1 12s steps(32, end) infinite; }
+      .line2 { animation: type2 12s steps(44, end) infinite; }
+      .line3 { animation: type3 12s steps(46, end) infinite; }
+      .cursor { fill: #10b981; animation: blink 0.9s step-end infinite; }
+
+      @keyframes type1 {
+        0%, 2% { width: 0px; }
+        14%, 28% { width: 310px; }
+        32%, 100% { width: 0px; }
+      }
+      @keyframes type2 {
+        0%, 34% { width: 0px; }
+        48%, 62% { width: 420px; }
+        66%, 100% { width: 0px; }
+      }
+      @keyframes type3 {
+        0%, 68% { width: 0px; }
+        82%, 95% { width: 440px; }
+        99%, 100% { width: 0px; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  
+  <rect x="1" y="1" width="838" height="388" rx="10" class="term-bg" />
+
+  
+  <path d="M 11 1 H 829 A 10 10 0 0 1 839 11 V 36 H 1 V 11 A 10 10 0 0 1 11 1 Z" class="title-bar" />
+  <line x1="1" y1="36" x2="839" y2="36" stroke="#30363d" stroke-width="1" />
+
+  
+  <circle cx="22" cy="18" r="6" fill="#ff5f56" />
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e" />
+  <circle cx="62" cy="18" r="6" fill="#27c93f" />
+  <text x="420" y="23" text-anchor="middle" class="title-text">burak@root: ~/avionics — bash</text>
+
+  
+  <text x="24" y="66" xml:space="preserve" class="ascii">______                                      <tspan class="hud-accent">+-------------------------------+</tspan></text>
+  <text x="24" y="84" xml:space="preserve" class="ascii">L,.   ',                                    <tspan class="hud-accent">| CALLSIGN : raptorjet06        |</tspan></text>
+  <text x="24" y="102" xml:space="preserve" class="ascii"> \      ',_                                 <tspan class="hud-accent">| AIRCRAFT : F-16C Block 50     |</tspan></text>
+  <text x="24" y="120" xml:space="preserve" class="ascii">  \   C*   ',                               <tspan class="hud-accent">| SQUADRON : 141. Filo (Kurt)   |</tspan></text>
+  <text x="24" y="138" xml:space="preserve" class="ascii">   \        ',                              <tspan class="hud-accent">| OS       : VxWorks 653 RTOS   |</tspan></text>
+  <text x="24" y="156" xml:space="preserve" class="ascii">    \    TR   ',                            <tspan class="hud-accent">+-------------------------------+</tspan></text>
+  <text x="24" y="174" xml:space="preserve" class="ascii">     \___90-0002 ',_                         _..----.._</text>
+  <text x="24" y="192" xml:space="preserve" class="ascii">     [______       "'==.I\_____________..--"&lt;__\\_n@___4\,_</text>
+  <text x="24" y="210" xml:space="preserve" class="ascii">   ,..-=T         __   ____________          \/  "'" o&lt;==  ""-+.._</text>
+  <text x="24" y="228" xml:space="preserve" class="ascii">   I____|_____    }_&gt;=========I&gt;=**^^~~==-------------==-   " |   ""-.,___</text>
+  <text x="24" y="246" xml:space="preserve" class="ascii">   [_____,.--'"             _______         ""--=&lt;""-----=====+==--''""</text>
+  <text x="24" y="264" xml:space="preserve" class="ascii">   ""'-=+..,,__,-----,_____|       |         -=* |</text>
+  <text x="24" y="282" xml:space="preserve" class="ascii">               |__   /     |---,--'"---+------+-'"</text>
+  <text x="24" y="300" xml:space="preserve" class="ascii">                  """     d"b="        '-----+t</text>
+  <text x="24" y="318" xml:space="preserve" class="ascii">                          q_p                '@</text>
+
+  
+  <line x1="20" y1="336" x2="820" y2="336" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+
+  
+  <text x="24" y="366" class="prompt-user">burak@root<tspan class="prompt-path">(/home)</tspan>#</text>
+
+  <svg x="192" y="348" height="24" class="line1">
+    <text x="0" y="18" class="cmd-text">./whoami.sh --verbose <tspan class="cursor">█</tspan></text>
+  </svg>
+
+  <svg x="192" y="348" height="24" class="line2">
+    <text x="0" y="18" class="cmd-text">cat /etc/focus | grep -E "CyberSec|Net" <tspan class="cursor">█</tspan></text>
+  </svg>
+
+  <svg x="192" y="348" height="24" class="line3">
+    <text x="0" y="18" class="cmd-text">systemctl status c-lang python rev-eng <tspan class="cursor">█</tspan></text>
+  </svg>
+</svg>

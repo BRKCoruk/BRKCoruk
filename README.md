@@ -2,6 +2,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f2937,100:6e40c9&height=180&section=header&text=Merhaba,%20Ben%20Burak&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20-%20Cybersecurity%20and%20Networking&descAlignY=58&descSize=16" width="100%" />
 </div>
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=whoami+%3E+Software+Engineering+Student;focus+%3E+Cybersecurity+%26+Network+Analysis;currently_learning+%3E+C%2C+Python+%26+Reverse+Engineering" alt="Typing SVG" />
+</div>
+
 ### 👨‍💻 Hakkımda
 
 - 🎓 **Eğitim:** Ankara Yıldırım Beyazıt Üniversitesi — Yazılım Mühendisliği (1. Sınıf)

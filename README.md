@@ -38,8 +38,8 @@
 ### 🛡️ TryHackMe & İstatistikler
 
 <div align="center">
-  <a href="https://tryhackme.com/p/raptorjet06">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/4e0e83414039d3863497892315ca238f0fe1304f4d36f7af044dbbeb4cf4158b79b3b99f7a2a7eb12bd74f5d4b67e70f.png" alt="TryHackMe Badge" />
+  <a href="https://tryhackme.com/p/raptorjet06" target="_blank">
+    <img src="https://img.shields.io/badge/TryHackMe-raptorjet06-212C42?style=for-the-badge&logo=tryhackme&logoColor=88CC14" alt="TryHackMe Profile" />
   </a>
 </div>
 

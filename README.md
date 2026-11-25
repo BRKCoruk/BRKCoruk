@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f2937,100:6e40c9&height=180&section=header&text=Merhaba,%20Ben%20Burak&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20Cybersecurity%20%26%20Networking&descAlignY=58&descSize=16" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f2937,100:6e40c9&height=180&section=header&text=Merhaba,%20Ben%20Burak&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20-%20Cybersecurity%20and%20Networking&descAlignY=58&descSize=16" width="100%" />
 </div>
 
 ### 👨‍💻 Hakkımda
